@@ -1,0 +1,20 @@
+.hero{
+    padding: 60px;
+    background-color: black;
+    margin-top: 40px;
+}
+.ios{
+    font-size: 46px;
+    color: #fff;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    span{
+        display: flex;
+        gap: 10px;
+        p{
+            color: #fff;
+        }
+    }
+}
