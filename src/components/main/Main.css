@@ -2,6 +2,8 @@
     padding: 60px;
     background-color: black;
     margin-top: 40px;
+    display: flex;
+    gap: 40px;
 }
 .ios{
     font-size: 46px;
@@ -10,11 +12,87 @@
 .hero-left{
     display: flex;
     flex-direction: column;
+    h1{
+        color: #fff;
+        width: 294px;
+        font-size: 48px;
+    }
     span{
         display: flex;
         gap: 10px;
+        align-items: center;
         p{
             color: #fff;
         }
+        a{
+            color: #fff;
+        }
     }
+}
+.arrow{
+    color: #fff;
+    font-size: 36px;
+}
+.shop-now{
+    border-bottom: 1px solid #fff;
+    max-width: 120px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+.categories{
+    margin-top: 100px;
+    h1{
+        margin-bottom: 50px;
+    }
+}
+.categories-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    p{
+        color:#DB4444 ;
+    }
+}
+.cards{
+    display: flex;
+    gap: 30px;
+}
+.card{
+    width: 170px;
+    padding: 25px ;
+    border: 1px solid black;
+    text-align: center;
+}
+.card:hover{
+    background-color: #DB4444;
+    color: #fff;
+    border: 1px solid #DB4444;
+    transition: 0.3s;
+}
+.products-cards{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+.product-card{
+    max-width: 270px;
+    padding: 10px;
+}
+.product-wish{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.eye{
+    font-size: 28px;
+}
+.df{
+    display: flex;
+    gap: 10px;   
+    background-color: #F5F5F5;
+    padding: 10px;
+    justify-content: center;
+    height: 200px;
+}
+.categories-title{
+    margin: 50px 0;
 }
